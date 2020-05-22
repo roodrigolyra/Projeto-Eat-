@@ -1,0 +1,78 @@
+/* style reset */
+body{
+    margin: 0px;
+    border: 0;
+    padding: 0;
+}
+
+h1, h2, p, a, button{
+    
+    font-family: 'Poppins', sans-serif;
+
+}
+
+li, a, button {
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+/* style menu */ 
+
+.navbar{
+    background-color: #c03e0d;
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 16px;
+
+}
+
+nav.navbar ul {
+    display: flex;
+
+}
+
+nav.navbar ul li {
+    padding: 10px;
+}
+
+
+.navbar ul li a{
+    color:white;
+    
+}
+
+.botao-cadastro{
+    color: white;
+    border-radius: 4px;
+    background: #a82509;
+    border: unset;
+    margin: 15px;
+    font-size: 16px;
+}
+
+.botao-cadastro a{
+    color: white;
+    padding: 10px;
+}
+
+
+
+.navbar ul li a:hover{
+    color: #730604;
+    font-weight: bolder;
+
+}
+.botao-cadastro:hover{
+    background: #a83f09;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.logo img {
+ width: 55px;
+}
