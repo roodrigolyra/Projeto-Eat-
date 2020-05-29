@@ -8,7 +8,7 @@ body{
 h1, h2, p, a, button{
     
     font-family: 'Poppins', sans-serif;
-
+    color: white;
 }
 
 li, a, button {
@@ -24,7 +24,7 @@ li, a, button {
     justify-content: space-evenly;
     display: flex;
     font-size: 16px;
-
+    position: relative;
 }
 
 nav.navbar ul {
@@ -75,4 +75,61 @@ nav.navbar ul li {
 
 .logo img {
  width: 55px;
+}
+
+/* Style main */
+
+main.container-carrossel {
+    background-image: linear-gradient(#d65420, #a5362f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.img-legumes img {
+    width: 400px;
+    margin-left: -153px;
+    margin-top: -74px;
+    
+}
+
+.img-celular img {
+    width: 90%;
+    margin-top: 20px;
+    
+}
+
+.box-text h1 {
+    font-weight: normal;
+}
+
+.box-text strong {
+    font-weight: bold;
+}
+
+main.container-carrossel .box-text {
+    color: white;
+}
+
+button.buttons-store {
+    background: #6e0503;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 4px;
+
+}
+
+/* style footer */
+#footer {
+    display: flex;
+    background: #c03e0d;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    width: 80%;
+    text-align: center;
 }
